@@ -1,5 +1,5 @@
-.gitignore
-*.csproj
-obj
-bin
+.gitignore 
+*.csproj 
+obj 
+bin 
 .vscode
