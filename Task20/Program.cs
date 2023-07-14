@@ -14,7 +14,7 @@ Console.Write("y: ");
 int y2 = Convert.ToInt32(Console.ReadLine());
 
 double dist = GetDistsnce(x1, y1, x2, y2);
-double distRound = Math.Round(dist, MidpointRounding.ToZero); // Округление до двух знаков
+double distRound = Math.Round(dist, 2, MidpointRounding.ToZero); // Округление до двух знаков
 Console.Write("Расстояние между A и B: " + distRound);
 
 double GetDistsnce(int a1, int a2, int b1, int b2)
