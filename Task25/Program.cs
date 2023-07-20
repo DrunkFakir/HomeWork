@@ -11,12 +11,12 @@ int secondNumber = Convert.ToInt32(Console.ReadLine());
 int exponentiation = Exponentiation(firstNumber, secondNumber);
 Console.WriteLine($"{firstNumber}, {secondNumber} -> {exponentiation}");
 
-int Exponentiation(int firstNumber, int secondNumber)
+int Exponentiation(int firstNum, int secondNum)
 {
   int result = 1;
-  for(int i=1; i <= secondNumber; i++)
+  for(int i=1; i <= secondNum; i++)
   {
-    result = result * firstNumber;
+    result = result * firstNum;
   }
     return result;
 }
