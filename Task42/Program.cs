@@ -22,3 +22,17 @@ int DecToBinnary(int number)
     }
     return numResult;
 }
+
+// Console.WriteLine($"Число в двоичном представлении = {DecToBinnaryStr(number)}");
+
+// string DecToBinnaryStr(int num)
+// {
+//     string numResult = string.Empty;
+//     while (num > 0)
+//     {
+//         numResult = num % 2 + numResult;
+//         num /= 2;
+//     }
+//     return numResult;
+
+// }
