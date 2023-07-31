@@ -38,19 +38,19 @@ void PrintMatrix(int[,] matrix)
     }
 }
 
-void SortArray(int[,] my_array)
+void SortArray(int[,] myArray)
 {
-    for (int j = 0; j < my_array.GetLength(0); j++)
+    for (int j = 0; j < myArray.GetLength(0); j++)
     {
-        for (int k = 0; k < my_array.GetLength(1); k++)
+        for (int k = 0; k < myArray.GetLength(1); k++)
         {
-            for (int i = 0; i < my_array.GetLength(1) - 1; i++)
+            for (int i = 0; i < myArray.GetLength(1) - 1; i++)
             {
-                if (my_array[j, i] < my_array[j, i + 1])
+                if (myArray[j, i] < myArray[j, i + 1])
                 {
-                    int temp = my_array[j, i];
-                    my_array[j, i] = my_array[j, i + 1];
-                    my_array[j, i + 1] = temp;
+                    int temp = myArray[j, i];
+                    myArray[j, i] = myArray[j, i + 1];
+                    myArray[j, i + 1] = temp;
                 }
             }
         }
